@@ -31,6 +31,7 @@
 .photo-li {
   list-style: none;
   margin-bottom: 40px;
+  width: 10%;
 }
 
 @keyframes App-logo-spin {
