@@ -4,7 +4,7 @@ const axios = require('axios');
 class FlickrAPI {
     constructor() {
         this.baseURL = 'https://www.flickr.com/services/rest/';
-        this.apiKey = '8013e08b48f286a1f76bab32d255b1c9';
+        this.apiKey = ''; // <---- Insert your own Flickr API key here
         this.method = 'flickr.photos.search';
         this.format = 'json';
     }
